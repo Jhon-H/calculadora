@@ -110,7 +110,6 @@ function App() {
       setIsNum(true);
     }
     else if (value_ === '=') {
-      alert('a');
       if (stack.length >= 2 && isNum) {
         setValue(calcular(stack.concat(value)));
         setStack([]);
